@@ -2,8 +2,8 @@
 
 total = 0  
 
-for i in (5):
+for i in range(5):
     number = input("Enter a number: ")
-    total int(number)  
+    total += int(number) 
 
-print("The running tl is: " + str(total)) 
+print("The running total is: " + str(total)) 
